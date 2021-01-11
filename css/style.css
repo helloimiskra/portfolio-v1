@@ -1,0 +1,168 @@
+/* Color Scheme: Dark Purple #583d72, light purple #9f5f80, yellow-orange #ffba93, orange #ff8e71 */
+
+colors {
+    color: #03c4a1;
+    color: #c62a88;
+    color: #590995;
+    color: #150485;
+}
+
+body {
+    background-image: url("../src/images/nathan-anderson-9o-VrJSwGuw-unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.container-fluid {
+    padding: 7% 15%;
+    float: inline;
+}
+
+.navbar-toggler {
+    background-color: #03c4a1;
+}
+
+.navbar {
+    padding: 0 0 4.5rem;
+    font-family: 'Fira Code';
+    color: #03c4a1;
+}
+
+.navbar-brand {
+    font-family: 'Fira Code';
+    color: #03c4a1;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+    color: #03c4a1;
+}
+
+a.nav-link {
+    font-family: 'Fira Code';
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #c62a88;
+}
+
+a.nav-link:hover {
+    color: #ba60ff;
+}
+
+h1,
+a {
+    margin-top: 0;
+    font-family: 'Bodoni Moda';
+    color: #03c4a1;
+    size: 100px;
+    font-weight: bold;
+}
+
+h2,
+h3 {
+    color: #03c4a1;
+    font-family: "Fira Code";
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#title {
+    font-family: 'Fira Code';
+    text-align: left;
+}
+
+.title-col {
+    margin: 10% 0;
+}
+
+
+/* Title Image */
+
+.title-image {
+    width: inherit;
+    position: inherit;
+}
+
+p {
+    color: #03c4a1;
+    font-family: "Fira Code";
+    font-size: 15px;
+}
+
+.contact {
+    margin: 20px 10px;
+    color: #03c4a1;
+}
+
+#about .container-fluid {
+    width: inherit;
+}
+
+.about-col {
+    text-align: left;
+    background-color: #13071d;
+    padding: 5%;
+}
+
+.about-title {
+    text-align: left;
+    margin-top: auto;
+}
+
+.about-image {
+    width: 20%;
+}
+
+.big-heading {
+    margin: 10% 0 5%;
+}
+
+.project-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.project-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+#projects {
+    width: inherit;
+    background-color: #13071d;
+    color: #03c4a1;
+}
+
+#projects .container-fluid {
+    width: inherit;
+}
+
+#contact {
+    background-color: #13071d;
+    color: #03c4a1;
+}
+
+#wrapper {
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 30px 1fr 30px;
+}
+
+#content {
+    overflow-y: scroll;
+}
+
+
+/* Optional */
+
+#wrapper>* {
+    padding: 5px;
+}
+
+.fixed-top {
+    padding: 3% 5% 0;
+}
