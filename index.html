@@ -30,7 +30,7 @@
             <nav class="navbar navbar-expand-lg fixed-top">
                 <a class="navbar-brand" href="">iskra.codes</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span></button>
+                        <span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
@@ -76,16 +76,15 @@
     <section id="about">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-lg-6 col-md-6 about-col">
-
-                    <h3 class="about-title"> <img class="about-image" src="src/images/shape-001.png" /> About Me </h3>
 
 
+                <div class="col-lg-12 col-md-12 about-col">
+                    <img class="about-image" src="src/images/shape-004.png" />
+                    <br>
+                    <h3 class="about-title"> About Me
+                    </h3>
+                    <br>
 
-
-                </div>
-
-                <div class="col-lg-6 col-md-6 about-col">
 
                     <p> Hello, I’m Iskra. I’m a full-stack software engineer who enjoys building applications with Ruby-on-Rails, JavaScript, React/Redux, SQL, Sinatra, and HTML/CSS. </p> <br>
 
@@ -105,39 +104,54 @@
 
     <section class="colored-section" id="projects">
         <div class="container-fluid">
-            <div id="projects-carousel" class="carousel slide" data-ride="false">
-                <div class="carousel-inner">
-                    <div class="carousel-item active container-fluid">
-                        <h2 class="project-text">
-                            Project One
-                        </h2>
-                        <img class='project-image' src="images/dog-img.jpg" alt="project-1" />
-                        <em>75Hard Tracker</em>
-                    </div>
-                    <div class="carousel-item container-fluid">
-                        <h2 class="project-text">Project Two</h2>
-                        <img class="project-image" src="images/lady-img.jpg" alt="project-2">
-                        <em>Pet-Task-Tic</em>
-                    </div>
-                    <div class="carousel-item container-fluid">
-                        <h2 class="tl-text">Project Three</h2>
-                        <img class="testimonial-image" src="images/lady-img.jpg" alt="project-3">
-                        <em>Pet Shelter Connect</em>
-                    </div>
+            <div class="row">
+                <div class="projects-col col-lg-12">
+                    <div id="projects-carousel" class="carousel slide" data-ride="false">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active container-fluid">
+                                <h2 class="project-text">
+                                    #75 Hard Tracker
+                                </h2>
 
+                                <h5><a href="https://github.com/helloimiskra/seventyfivehard-tracker">GitHub</a>| <a href="https://drive.google.com/file/d/1oTW1H1ehlp0ZC5x5oYYOrtQ9KzkjjjwX/view?usp=sharing">Demo</a>
+                                </h5>
+
+                                <span class="image main"><img src="images/seventyfivehard.png"
+                                            alt="project1" /></span>
+                                <h4>An app for simple tracking of days while completing Andy Frisella's #75HARD challenge
+                                </h4>
+
+                                <p>
+                                    <li>Built with a Rails API with a React/Redux frontend </li>
+                                    <li>Integrated Redux-Thunk so dispatched actions can be used to interact with API asynchronously </li>
+                                    <li>Created and maintained a SQLite database for backend JSON creation and modification
+                                    </li>
+                                </p>
+                            </div>
+                            <div class="carousel-item container-fluid">
+                                <h2 class="project-text">Project Two</h2>
+                                <img class="project-image" src="images/lady-img.jpg" alt="project-2">
+                                <em>Pet-Task-Tic</em>
+                            </div>
+                            <div class="carousel-item container-fluid">
+                                <h2 class="project-text">Project Three</h2>
+                                <img class="testimonial-image" src="images/lady-img.jpg" alt="project-3">
+                                <em>Pet Shelter Connect</em>
+                            </div>
+
+                        </div>
+                        <a class="carousel-control-prev" href="#projects-carousel" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#projects-carousel" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
                 </div>
-                <a class="carousel-control-prev" href="#projects-carousel" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#projects-carousel" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                </a>
             </div>
-
         </div>
-
     </section>
 
 
@@ -145,8 +159,31 @@
 
     <section class="resume-section" id="resume">
         <div class="container-fluid">
-            <h2 class="resume-text">My Resume.</h2>
-            <p>Download Here</p>
+            <div class="row">
+                <div class="resume-col col-lg-12">
+
+                    <h2 class="resume-text">My Resume.</h2>
+
+
+
+                    <object data="pdf/Iskra Batista Poblete - Software Engineer Resume.pdf" type="application/pdf" width="100%" height="100%">
+                            <p><b>Notice</b>: This browser does not support PDFs. Please download the PDF to view it:
+                                <a
+                                    href="https://github.com/helloimiskra/helloimiskra.github.io/raw/main/pdf/Iskra%20Batista%20Poblete%20-%20Software%20Engineer%20Resume.pdf">Download
+                                    PDF</a>.</p>
+                        </object>
+
+                    </article>
+
+
+
+
+                </div>
+
+
+
+            </div>
+
         </div>
     </section>
 
@@ -154,7 +191,12 @@
 
     <section class="colored-section" id="contact">
         <div class="container-fluid">
-            <h2>Email Container </h2>
+            <div class="row">
+                <div class="contact-col col-lg-12">
+                    <h2>Email Container </h2>
+                </div>
+            </div>
+
         </div>
     </section>
 
